@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  padding: 1rem 0.5rem 1.5rem 2rem;
+  border: 2px solid sandybrown;
+  margin: 2rem 1.5rem 1rem 0.5rem;
+  display: inline-block;
+}
+
+div:first-child {
+  width: 50%;
+  height: 350px;
+}
+
+div:last-of-type:hover {
+  background-color: blue;
+}
